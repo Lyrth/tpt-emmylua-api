@@ -69,9 +69,11 @@ local Element = {}
 ---@field vy float
 ---@field temp float
 ---@field pavg float[]
----@field flags int
+--|@field flags int  -- displayed as "Invalid property"
 ---@field tmp int
 ---@field tmp2 int
+---@field pavg0 int
+---@field pavg1 int
 ---@field dcolor uint
 -----@field dcolour uint
 local Particle = {}

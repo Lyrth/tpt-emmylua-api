@@ -12,7 +12,7 @@
 sim = {}
 simulation = sim
 
----@alias partProperty string | '"ctype"' | '"dcolour"' | '"life"' | '"temp"' | '"tmp"' | '"tmp2"' | '"type"' | '"vx"' | '"vy"' | '"x"' | '"y"' @-- '"flags"' doesn't work.
+---@alias partProperty string | '"ctype"' | '"dcolour"' | '"life"' | '"temp"' | '"tmp"' | '"tmp2"' | '"type"' | '"vx"' | '"vy"' | '"x"' | '"y"' | '"pavg0"' | '"pavg1"' @-- '"flags"' doesn't work.
 
 ---@type partProperty
 sim.FIELD_CTYPE, sim.FIELD_DCOLOUR, sim.FIELD_FLAGS, sim.FIELD_LIFE, sim.FIELD_TEMP, sim.FIELD_TMP, sim.FIELD_TMP2, sim.FIELD_TYPE, sim.FIELD_VX, sim.FIELD_VY, sim.FIELD_X, sim.FIELD_Y = ""
