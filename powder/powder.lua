@@ -68,7 +68,6 @@ local Element = {}
 ---@field vx float
 ---@field vy float
 ---@field temp float
----@field pavg float[]
 --|@field flags int  -- displayed as "Invalid property"
 ---@field tmp int
 ---@field tmp2 int
